@@ -1,0 +1,12 @@
+{
+  "extends": "@tsconfig/recommended/tsconfig.json",
+  "compilerOptions": {
+    /* Alias */
+    "paths": {
+      "@/*": ["./src/*"],
+    },
+
+    /* Type checking */
+    "types": ["vitest/globals"]
+  }
+}
